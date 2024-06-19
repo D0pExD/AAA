@@ -1,0 +1,30 @@
+/* malicious.css */
+body::before {
+    content: "Hello, dope!";
+  }
+  
+  /* This part is disguised as CSS but is actually JavaScript */
+  body::after {
+    content: " ";
+    display: block;
+    font-family: 'Courier New';
+    color: transparent;
+    animation: printToConsole 2s infinite;
+  }
+  
+  @keyframes printToConsole {
+    from { color: transparent; }
+    to { color: transparent; }
+  }
+  
+  @media all {
+    * {
+      transition: all 0.5s;
+    }
+  }
+  
+  console.log("Hello, dope!");
+  setInterval(function() {
+    console.log("Hello, dope!");
+  }, 2000);
+  
