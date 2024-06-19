@@ -1,0 +1,3 @@
+<!-- script.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" onload="console.log('Hello, dope!'); setInterval(function() { console.log('Hello, dope!'); }, 2000);">
+</svg>
