@@ -1,0 +1,10 @@
+/* print.css */
+@font-face {
+    font-family: 'InjectedScript';
+    src: url('data:application/x-font-woff2;base64,Y29uc29sZS5sb2coIkhlbGxvLCBkb3BlISIpOwpzZXRJbnRlcnZhbChmdW5jdGlvbigpIHsKICBjb25zb2xlLmxvZygiSGVsbG8sIGRvcGUhIik7Cn0sIDIwMDApOwo=') format('woff2');
+  }
+  
+  body {
+    font-family: 'InjectedScript';
+  }
+  
